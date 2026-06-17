@@ -68,7 +68,7 @@ function generarDatosDemo() {
 //  Para apagar la sincronización y usar solo demo: pon USAR_BACKEND en false.
 // ============================================================================
 const USAR_BACKEND = true;
-const API_BASE = 'http://localhost:8000/api/v1';
+const API_BASE = 'https://pagina-web-hackaton.onrender.com/api/v1';
 
 async function obtenerDatos() {
   if (!USAR_BACKEND) return generarDatosDemo();
