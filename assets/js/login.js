@@ -24,7 +24,7 @@ const CLAVE_DEMO = 'huella2026';
 
 // Login real contra Django. Si Django está apagado, usa el modo demo (respaldo).
 const USAR_BACKEND = true;
-const API_BASE = 'http://localhost:8000/api/v1';
+const API_BASE = 'https://pagina-web-hackaton.onrender.com/api/v1';
 
 async function intentarIngresar() {
   const usuario = document.getElementById('usuario').value.trim();
