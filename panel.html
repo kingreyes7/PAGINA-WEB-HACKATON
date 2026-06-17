@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Huella Sonora — Panel del Gestor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/statistics.css" />
+  <!-- GUARDIA DE ACCESO: si no hay sesión, manda al login. -->
+  <script>
+    if (sessionStorage.getItem('hs_logueado') !== 'si') {
+      window.location.href = 'login.html';
+    }
+  </script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left" onclick="window.location.href='index.html'">
+      <div class="logo-mark"><div class="logo-outer"></div><div class="logo-inner"></div></div>
+      <span class="brand">Huella Sonora</span>
+    </div>
+    <div class="nav-actions">
+      <button class="tema-btn" id="btnTema">☀️ Día</button>
+      <button class="tema-btn" id="btnDaltonismo" title="Modo para daltonismo">Daltonismo</button>
+      <a href="statistics.html" class="btn-ghost">Estadísticas públicas</a>
+      <button class="btn-back" id="btnLogout">Cerrar sesión</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header>
+      <h1>Panel del <span class="serif">gestor</span></h1>
+      <p>Información operativa privada. Detecta dónde mejorar la accesibilidad de cada sitio.</p>
+    </header>
+
+    <!-- KPIs -->
+    <div class="stats-main">
+      <div class="stat-card liquid-glass">
+        <div class="value" id="kpiUsuarios">—</div>
+        <div class="label">Usuarios Activos</div>
+      </div>
+      <div class="stat-card liquid-glass">
+        <div class="value" id="kpiRecorridos">—</div>
+        <div class="label">Recorridos</div>
+      </div>
+      <div class="stat-card liquid-glass">
+        <div class="value" id="kpiFinalizacion">—</div>
+        <div class="label">Recorridos Completados</div>
+      </div>
+    </div>
+
+    <!-- Puntos de abandono (dato sensible, solo gestor) -->
+    <div class="chart-box liquid-glass" style="margin-bottom:32px">
+      <h2>Puntos de abandono por estación</h2>
+      <div class="chart-wrap"><canvas id="chartAbandono"></canvas></div>
+    </div>
+
+    <!-- Estado de balizas por sitio (diagnóstico) -->
+    <div class="chart-box liquid-glass" style="margin-bottom:32px">
+      <h2>Estado de balizas por sitio</h2>
+      <div class="selector-wrap">
+        <label for="selectorSitio">Sitio:</label>
+        <select id="selectorSitio"></select>
+      </div>
+      <div id="listaBalizas"></div>
+    </div>
+
+    <!-- Lugares más visitados (contexto para el gestor) -->
+    <div class="chart-box liquid-glass" style="margin-bottom:64px">
+      <h2>Lugares más visitados</h2>
+      <div class="chart-wrap"><canvas id="chartVisitas"></canvas></div>
+    </div>
+
+    <footer>
+      © 2026 Huella Sonora · Panel privado del gestor.
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/statistics.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Huella Sonora — Mapa de Balizas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/statistics.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left" onclick="window.location.href='index.html'">
+      <div class="logo-mark"><div class="logo-outer"></div><div class="logo-inner"></div></div>
+      <span class="brand">Huella Sonora</span>
+    </div>
+    <div class="tema-controls">
+      <button class="tema-btn" id="btnTema">☀️ Día</button>
+      <button class="tema-btn" id="btnDaltonismo" title="Modo para daltonismo">Daltonismo</button>
+      <a href="index.html" class="btn-back">VOLVER</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header>
+      <h1>Mapa de <span class="serif">balizas</span></h1>
+      <p>Museos y centros arqueológicos donde están instaladas nuestras balizas. Toca un punto para ver sus estaciones.</p>
+    </header>
+
+    <div class="mapa-grid">
+      <div class="mapa-svg-wrap">
+        <svg id="peruMap" viewBox="0 0 396 559.3" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 351.9,519.4 L 344.3,534.0 L 329.8,541.3 L 301.5,524.9 L 299.0,513.2 L 243.0,484.4 L 192.4,453.2 L 170.6,435.5 L 158.9,411.9 L 163.5,403.6 L 139.6,366.1 L 111.7,313.3 L 85.1,256.3 L 73.5,243.3 L 64.6,222.2 L 42.7,203.5 L 22.5,192.0 L 31.7,179.2 L 18.0,151.9 L 26.8,131.9 L 49.3,113.8 L 52.7,125.7 L 44.6,132.5 L 45.4,143.0 L 57.0,140.7 L 68.4,143.8 L 80.3,158.3 L 96.3,146.5 L 101.6,127.2 L 118.9,102.3 L 152.9,91.0 L 183.7,61.0 L 192.5,42.4 L 188.5,20.7 L 196.1,18.0 L 214.8,31.6 L 223.9,45.1 L 236.9,52.4 L 253.6,82.4 L 274.6,86.0 L 290.2,78.4 L 300.4,83.4 L 317.3,80.9 L 338.9,94.3 L 320.7,123.5 L 329.2,124.1 L 343.3,139.3 L 317.8,138.0 L 314.1,142.3 L 290.9,147.8 L 258.6,167.3 L 256.6,180.6 L 249.4,190.6 L 252.2,206.1 L 235.1,214.3 L 235.1,226.4 L 227.7,231.6 L 239.4,257.4 L 255.1,274.8 L 249.2,287.1 L 267.9,288.8 L 278.6,304.0 L 303.5,304.8 L 326.7,287.9 L 324.8,331.4 L 337.6,334.7 L 353.6,329.7 L 378.0,375.8 L 371.9,385.5 L 370.5,405.6 L 370.0,429.9 L 359.0,444.2 L 364.0,454.8 L 357.5,464.4 L 369.7,488.5 L 351.9,519.4 Z" class="peru-shape" />
+          <g id="pines"></g>
+        </svg>
+      </div>
+      <aside class="mapa-info liquid-glass" id="infoPanel">
+        <p class="info-vacio">Toca un punto del mapa para ver sus balizas.</p>
+      </aside>
+    </div>
+
+    <div class="map-legend">
+      <span><i class="dot" style="background:#d68a78"></i> Centro arqueológico</span>
+      <span><i class="dot" style="background:#7aa59b"></i> Museo</span>
+      <span>El tamaño del punto refleja la cantidad de balizas.</span>
+    </div>
+
+    <footer>© 2026 Huella Sonora · Mapa de cobertura.</footer>
+  </div>
+
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/mapa.js"></script>
+</body>
+</html>

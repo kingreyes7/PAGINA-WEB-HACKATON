@@ -1,0 +1,34 @@
+{
+  "_comentario_1": "DATOS DE EJEMPLO. Esta es la estructura que deberá devolver la API del backend.",
+  "_comentario_2": "AQUI SE HARA LA CONEXION CON LA BASE DE DATOS (candidato: Django REST + PostgreSQL).",
+  "_comentario_3": "Mientras no exista el backend, la web usa datos random generados en assets/js/statistics.js.",
+  "resumen": {
+    "usuariosActivos": 1984,
+    "sitiosCubiertos": 11,
+    "recorridos": 8013,
+    "tasaFinalizacion": 62
+  },
+  "lugaresMasVisitados": [
+    { "nombre": "Machu Picchu", "visitas": 785 },
+    { "nombre": "Museo Larco", "visitas": 540 },
+    { "nombre": "Huaca Pucllana", "visitas": 410 },
+    { "nombre": "Chan Chan", "visitas": 305 },
+    { "nombre": "Caral", "visitas": 240 },
+    { "nombre": "Sacsayhuamán", "visitas": 160 }
+  ],
+  "puntosDeAbandono": [
+    { "estacion": "Entrada", "abandonos": 8 },
+    { "estacion": "Templo del Sol", "abandonos": 22 },
+    { "estacion": "Plaza principal", "abandonos": 14 },
+    { "estacion": "Terrazas", "abandonos": 41 },
+    { "estacion": "Mirador", "abandonos": 12 },
+    { "estacion": "Salida", "abandonos": 5 }
+  ],
+  "mapaCalor": [
+    { "ciudad": "Kuélap", "top": 20, "left": 45, "intensidad": 60 },
+    { "ciudad": "Sipán", "top": 35, "left": 35, "intensidad": 45 },
+    { "ciudad": "Lima", "top": 65, "left": 40, "intensidad": 90 },
+    { "ciudad": "Cusco", "top": 75, "left": 65, "intensidad": 80 },
+    { "ciudad": "Puno", "top": 85, "left": 75, "intensidad": 35 }
+  ]
+}

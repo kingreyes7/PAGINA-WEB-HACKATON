@@ -1,0 +1,354 @@
+{
+  "schema": "open-design.design-manifest.v1",
+  "title": "bc8fc6f0-e530-4cc0-9e02-001f13ecb593",
+  "entryFile": "index.html",
+  "sourceFiles": {
+    "all": [
+      "huella-sonora-final.html",
+      "huella-sonora-index-10.html",
+      "huella-sonora-index-11.html",
+      "huella-sonora-index-12.html",
+      "huella-sonora-index-13.html",
+      "huella-sonora-index-14.html",
+      "huella-sonora-index-15.html",
+      "huella-sonora-index-2.html",
+      "huella-sonora-index-3.html",
+      "huella-sonora-index-4.html",
+      "huella-sonora-index-5.html",
+      "huella-sonora-index-6.html",
+      "huella-sonora-index-7.html",
+      "huella-sonora-index-8.html",
+      "huella-sonora-index-9.html",
+      "huella-sonora-index-final.html",
+      "huella-sonora-index-updated.html",
+      "huella-sonora-index.html",
+      "huella-sonora-landing-2.html",
+      "huella-sonora-landing.html",
+      "huella-sonora-statistics.html",
+      "huella-sonora-vertical-sequence.html",
+      "index.html",
+      "mqddb3si-image.png",
+      "mqdf57tv-image.png",
+      "mqdf9f9p-image.png",
+      "mqdfcoy6-image.png",
+      "mqdfezxu-image.png",
+      "mqdffzkm-image.png",
+      "mqdfgl9w-image.png",
+      "mqdfhgia-image.png",
+      "mqdfkzto-image.png",
+      "mqdfmu1m-image.png",
+      "mqdh5d6b-image.png",
+      "mqe4mvvv-image.png",
+      "statistics.html"
+    ],
+    "html": [
+      "huella-sonora-final.html",
+      "huella-sonora-index-10.html",
+      "huella-sonora-index-11.html",
+      "huella-sonora-index-12.html",
+      "huella-sonora-index-13.html",
+      "huella-sonora-index-14.html",
+      "huella-sonora-index-15.html",
+      "huella-sonora-index-2.html",
+      "huella-sonora-index-3.html",
+      "huella-sonora-index-4.html",
+      "huella-sonora-index-5.html",
+      "huella-sonora-index-6.html",
+      "huella-sonora-index-7.html",
+      "huella-sonora-index-8.html",
+      "huella-sonora-index-9.html",
+      "huella-sonora-index-final.html",
+      "huella-sonora-index-updated.html",
+      "huella-sonora-index.html",
+      "huella-sonora-landing-2.html",
+      "huella-sonora-landing.html",
+      "huella-sonora-statistics.html",
+      "huella-sonora-vertical-sequence.html",
+      "index.html",
+      "statistics.html"
+    ],
+    "css": [],
+    "scriptsAndComponents": [],
+    "assets": [
+      "mqddb3si-image.png",
+      "mqdf57tv-image.png",
+      "mqdf9f9p-image.png",
+      "mqdfcoy6-image.png",
+      "mqdfezxu-image.png",
+      "mqdffzkm-image.png",
+      "mqdfgl9w-image.png",
+      "mqdfhgia-image.png",
+      "mqdfkzto-image.png",
+      "mqdfmu1m-image.png",
+      "mqdh5d6b-image.png",
+      "mqe4mvvv-image.png"
+    ]
+  },
+  "screens": [
+    {
+      "file": "huella-sonora-final.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-10.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-11.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-12.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-13.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-14.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-15.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-2.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-3.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-4.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-5.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-6.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-7.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-8.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-9.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-final.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index-updated.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-index.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-landing-2.html",
+      "role": "landing-page",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-landing.html",
+      "role": "landing-page",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-statistics.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "huella-sonora-vertical-sequence.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    },
+    {
+      "file": "index.html",
+      "role": "launcher-overview",
+      "implementationNote": "Use this as the navigation/overview entry only; implement each linked screen file as its own route/surface."
+    },
+    {
+      "file": "statistics.html",
+      "role": "screen",
+      "implementationNote": "Preserve visual hierarchy, responsive behavior, and interactive states from this screen."
+    }
+  ],
+  "screenFilePolicy": {
+    "mode": "screen-file-first",
+    "entryFileRole": "launcher-overview",
+    "rules": [
+      "Each distinct user-facing screen or surface must be delivered and implemented as its own file/route.",
+      "If a landing page is present or requested, keep it in landing.html and do not merge it into the product app screen.",
+      "When multiple HTML screens exist, index.html is a launcher/overview only; it must not be treated as the combined final UI.",
+      "Keep product app screens, landing pages, platform screens, and OS widget surfaces separate in production code."
+    ]
+  },
+  "appModules": [
+    "Identify domain-specific in-app modules from the exported UI; do not reduce them to generic cards.",
+    "For each major module, implement purpose, default/loading/empty/error/success states, and responsive behavior.",
+    "Keep app modules separate from OS home-screen widgets in the production component model."
+  ],
+  "osWidgets": [
+    "If the export includes home-screen, lock-screen, Live Activity, tablet glance, or Android widget surfaces, implement them as platform quick-access surfaces outside the app UI.",
+    "If none are present, do not invent OS widgets unless the product requirements request them."
+  ],
+  "landingPage": {
+    "detection": "Inspect files and screen names for a marketing/landing page surface. If present, keep it separate from product app screens.",
+    "requiredSections": [
+      "hero",
+      "value props",
+      "product proof/screenshots",
+      "feature proof",
+      "CTA"
+    ]
+  },
+  "tokens": {
+    "source": [
+      "index.html"
+    ],
+    "required": [
+      "background",
+      "surface",
+      "foreground",
+      "muted text",
+      "border",
+      "accent",
+      "radius",
+      "shadow",
+      "spacing",
+      "type scale",
+      "motion"
+    ],
+    "note": "Extract/freeze tokens before framework implementation so coding tools do not substitute default theme colors or typography."
+  },
+  "interactions": {
+    "source": [
+      "index.html"
+    ],
+    "requiredStates": [
+      "default",
+      "hover",
+      "focus",
+      "active",
+      "disabled",
+      "loading",
+      "empty",
+      "error",
+      "success"
+    ],
+    "requiredBehaviors": [
+      "forms/validation where present",
+      "tabs/filters where present",
+      "dialogs/sheets/drawers where present",
+      "copy/generate/share actions where present",
+      "player or quick controls where present"
+    ],
+    "note": "If the prototype is static, derive missing behavior from visible controls and document it before coding."
+  },
+  "responsiveViewports": [
+    {
+      "name": "mobile-compact",
+      "width": 360,
+      "height": 800,
+      "category": "mobile",
+      "mustAvoidHorizontalScroll": true
+    },
+    {
+      "name": "mobile-standard",
+      "width": 390,
+      "height": 844,
+      "category": "mobile",
+      "mustAvoidHorizontalScroll": true
+    },
+    {
+      "name": "mobile-large",
+      "width": 430,
+      "height": 932,
+      "category": "mobile",
+      "mustAvoidHorizontalScroll": true
+    },
+    {
+      "name": "foldable-small-tablet",
+      "width": 600,
+      "height": 960,
+      "category": "foldable-tablet",
+      "mustAvoidHorizontalScroll": true
+    },
+    {
+      "name": "tablet-portrait",
+      "width": 820,
+      "height": 1180,
+      "category": "tablet",
+      "mustAvoidHorizontalScroll": true
+    },
+    {
+      "name": "tablet-landscape",
+      "width": 1024,
+      "height": 768,
+      "category": "tablet",
+      "mustAvoidHorizontalScroll": true
+    },
+    {
+      "name": "laptop",
+      "width": 1366,
+      "height": 768,
+      "category": "desktop",
+      "mustAvoidHorizontalScroll": true
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "category": "desktop",
+      "mustAvoidHorizontalScroll": true
+    },
+    {
+      "name": "wide",
+      "width": 1920,
+      "height": 1080,
+      "category": "wide",
+      "mustAvoidHorizontalScroll": true
+    }
+  ],
+  "implementationChecklist": [
+    "Open entryFile first and map screens, modules, tokens, and interactions.",
+    "Extract tokens before writing framework components.",
+    "Implement app-specific modules with real states instead of generic card grids.",
+    "Preserve or rebuild JS interactions for meaningful UX actions.",
+    "Validate screenshots at desktop/tablet/mobile viewports with no horizontal overflow.",
+    "Keep landing pages, in-app modules, and OS widgets as separate implementation surfaces."
+  ]
+}

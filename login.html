@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Huella Sonora — Acceso al Panel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/login.css" />
+</head>
+<body>
+  <div class="login-wrap">
+    <div class="login-card liquid-glass">
+      <div class="login-brand">
+        <div class="logo-mark"><div class="logo-outer"></div><div class="logo-inner"></div></div>
+        <span class="brand">Huella Sonora</span>
+      </div>
+
+      <h1>Panel del <span class="serif">gestor</span></h1>
+      <p class="login-sub">Acceso privado. Solo personal autorizado.</p>
+
+      <div class="field">
+        <label for="usuario">Usuario</label>
+        <input id="usuario" type="text" autocomplete="username" placeholder="admin" />
+      </div>
+      <div class="field">
+        <label for="clave">Contraseña</label>
+        <input id="clave" type="password" autocomplete="current-password" placeholder="••••••••" />
+      </div>
+
+      <p class="login-error" id="error"></p>
+
+      <button class="btn-login" id="btnIngresar">Ingresar al panel</button>
+
+      <p class="login-hint">
+        Demo: usuario <b>admin</b> · contraseña <b>huella2026</b>
+      </p>
+
+      <a href="index.html" class="login-back">← Volver al inicio</a>
+    </div>
+  </div>
+
+  <script src="assets/js/login.js"></script>
+</body>
+</html>

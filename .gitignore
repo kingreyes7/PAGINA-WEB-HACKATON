@@ -1,0 +1,14 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Dependencias / backend a futuro
+node_modules/
+__pycache__/
+*.pyc
+.env
+venv/

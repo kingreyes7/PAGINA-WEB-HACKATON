@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Huella Sonora — Estadísticas e Impacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/statistics.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left" onclick="window.location.href='index.html'">
+      <div class="logo-mark"><div class="logo-outer"></div><div class="logo-inner"></div></div>
+      <span class="brand">Huella Sonora</span>
+    </div>
+    <div class="tema-controls">
+      <button class="tema-btn" id="btnTema">☀️ Día</button>
+      <button class="tema-btn" id="btnDaltonismo" title="Modo para daltonismo">Daltonismo</button>
+      <a href="index.html" class="btn-back">VOLVER</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header>
+      <h1>Impacto <span class="serif">en tiempo real</span></h1>
+      <p>Métricas de accesibilidad y cobertura de nuestra red de balizas.</p>
+    </header>
+
+    <!-- Tarjetas KPI (se rellenan desde statistics.js con datos random) -->
+    <div class="stats-main">
+      <div class="stat-card liquid-glass">
+        <div class="value" id="kpiUsuarios">—</div>
+        <div class="label">Usuarios Activos</div>
+      </div>
+      <div class="stat-card liquid-glass">
+        <div class="value" id="kpiRecorridos">—</div>
+        <div class="label">Recorridos</div>
+      </div>
+      <div class="stat-card liquid-glass">
+        <div class="value" id="kpiFinalizacion">—</div>
+        <div class="label">Recorridos Completados</div>
+      </div>
+    </div>
+
+    <!-- Contexto (datos del mundo real, verificados y con fuente) -->
+    <div class="stats-secondary">
+      <div class="stat-secondary-card">
+        <h3>2.2 mil millones</h3>
+        <p>Personas en el mundo con alguna discapacidad visual.</p>
+        <span class="fuente">Fuente: Organización Mundial de la Salud (OMS), 2024.</span>
+      </div>
+      <div class="stat-secondary-card">
+        <h3>+600 mil</h3>
+        <p>Personas con discapacidad visual en el Perú; cerca de 160 mil con ceguera total.</p>
+        <span class="fuente">Fuente: INEI / CONADIS.</span>
+      </div>
+      <div class="stat-secondary-card">
+        <h3>Ley N° 31707</h3>
+        <p>El Perú exige que las empresas de turismo implementen progresivamente la accesibilidad para personas con discapacidad visual.</p>
+        <span class="fuente">Fuente: CONADIS.</span>
+      </div>
+    </div>
+
+    <div class="video-sec">
+      <div class="chart-box liquid-glass">
+        <h2>Conoce uno de nuestros sitios</h2>
+        <div class="video-box">
+          <img src="assets/images/visita_museo.gif" alt="Visita guiada en museo - Huella Sonora" class="video-content">
+        </div>
+      </div>
+    </div>
+
+    <!-- Fila de gráficas: lugares más visitados + mapa de calor -->
+    <div class="charts-row">
+      <div class="chart-box liquid-glass">
+        <h2>Lugares más visitados</h2>
+        <div class="chart-wrap"><canvas id="chartVisitas"></canvas></div>
+      </div>
+      <div class="chart-box liquid-glass">
+        <h2>Mapa de Calor: Perú</h2>
+        <div class="map-container" id="mapaCalor"></div>
+      </div>
+    </div>
+
+    <!-- Testimonios -->
+    <h2 style="margin-bottom:20px">Lo que dicen las personas usuarias</h2>
+    <div class="testi-grid">
+      <div class="testi-card liquid-glass">
+        <p class="quote">"Por primera vez recorrí un museo sin depender de nadie. La voz me guiaba paso a paso y entendí la historia por mí misma."</p>
+        <p class="autor"><b>Paulina R.</b>Usuaria con discapacidad visual</p>
+      </div>
+      <div class="testi-card liquid-glass">
+        <p class="quote">"Sentí que el patrimonio también era para mí. Escuchar la historia mientras caminaba fue emocionante."</p>
+        <p class="autor"><b>Carlos M.</b>Persona con baja visión</p>
+      </div>
+      <div class="testi-card liquid-glass">
+        <p class="quote">"Como gestora del sitio, ahora sé exactamente dónde mejorar la accesibilidad. Es una herramienta que necesitábamos."</p>
+        <p class="autor"><b>Lucía V.</b>Gestora de atractivo turístico</p>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 Huella Sonora. Datos de demostración (aleatorios) — pendiente conexión a base de datos.
+    </footer>
+  </div>
+
+  <!-- Librería de gráficas -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <script src="assets/js/statistics.js"></script>
+</body>
+</html>
